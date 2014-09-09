@@ -1,0 +1,81 @@
+
+
+
+.ferst-block {
+	position: relative;
+    display: table;
+    margin: 100px auto;
+    width: 230px;
+    height: 140px;
+    border: 1px solid;
+}
+.ferst-block img {
+	position: absolute;
+	display: block;
+}
+.ferst-block a {
+	position: absolute;
+    display: table-cell;
+    width: 230px;
+    height: 140px;
+    color: #eee;
+    vertical-align:bottom;
+    text-align: center;
+    text-decoration: none;
+    font: 25px sans-serif;
+}
+.ferst-block a span {
+	position: absolute;
+	top: 32%;
+	left: 18%;
+}
+.two-block {
+	display: table;
+	margin: 100px auto;
+    width: 230px;
+    height: 140px;
+	border: 1px solid;
+	background-image: url(images/pchelka%20copy.jpeg);
+	background-repeat: no-repeat;
+}
+.two-block  a {
+	display: table-cell;
+    width: 230px;
+    height: 140px;
+    color: #464646;
+    vertical-align:bottom;
+    text-align: center;
+    text-decoration: none;
+    font: 24px sans-serif;
+	line-height:16px;
+}
+.two-block  a span {
+	font-size: 14px;
+	line-height: 12px;
+}
+
+.three-block {
+	position: relative;
+	display: table;
+    margin: 100px auto;
+    width: 230px;
+    height: 140px;
+	border: 1px solid; 
+}
+
+.three-block img {
+	position: absolute;
+	top: auto;
+	bottom: 30px;
+	left: 50px;
+}
+.three-block a {
+	display: table-cell;
+    width: 230px;
+    height: 140px;
+    color: #464646;
+    vertical-align: bottom;
+    text-align: center;
+    text-decoration: none;
+    font: 20px sans-serif;
+}
